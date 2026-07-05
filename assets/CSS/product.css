@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+}
+.list ul{
+    display:flex;
+    gap:24px;
+}
+.list a{
+    color:#43474C
+}
+body{
+    background-color:#F5F5F5;
+}
+a{
+    text-decoration: none;
+}
+.icons ul{
+    display: flex;
+    gap:16px;
+}
+
+.container {
+
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:326.29px;
+}
