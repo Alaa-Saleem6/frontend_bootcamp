@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sections{
+     display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 1024;
+}
+.section1{
+    width: 704px;
+    height: 1024px;
+}
+.section2{
+    width: 576px;
+    height: 1024px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 96px;
+}
+.top{
+    color: #162839;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top h3{
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+#box2{
+    width: 192px;
+    border-radius: 10px;
+    border: 1px  #C4C6CD solid ;
+    padding: 15px 16px;
+    gap: 16px;
+}
+.label2{
+   color: #43474C;
+   font-family:Arial, Helvetica, sans-serif;
+   
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:16px;
+}
+
+#box1{
+    width: 448px;
+    border-radius: 10px;
+    border: 1px  #C4C6CD solid ;
+    padding: 15px 16px;
+    margin-bottom: 24px;
+
+}
+.labels{
+   color: #43474C;
+   font-family:Arial, Helvetica, sans-serif;
+   margin-bottom: 16px;
+}
+.create_acc{
+    margin-bottom:48px;
+}
+.accounts h4{
+    color: #43474C;
+   font-family:Arial, Helvetica, sans-serif;
+   margin-bottom: 48px;
+   text-align: center;
+}.accounts{
+    margin-bottom: 63.5px;
+}
+a{text-decoration: none; color:#162839 #43474C; font-family:Arial, Helvetica, sans-serif;}
+.buttom h4{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #43474C;
+}
