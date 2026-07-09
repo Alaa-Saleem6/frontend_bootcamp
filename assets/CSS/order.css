@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+}
+.list ul{
+    display:flex;
+    gap:24px;
+}
+.list a{
+    color:#43474C
+}
+body{
+    background-color:#F5F5F5;
+}
+
+.icons ul{
+    display: flex;
+    gap:16px;
+}
+
+.container {
+
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:1075.01px;
+}
