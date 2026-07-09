@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -21,7 +23,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap:326.29px;
+    gap:64px;
 }
 .sections{
      display: flex;
@@ -90,6 +92,3 @@ body{
     justify-content: space-between;
     gap:16px;
 }
-a{text-decoration: none; color:#162839 #43474C;
-     font-family:Arial, Helvetica, sans-serif;}
-
